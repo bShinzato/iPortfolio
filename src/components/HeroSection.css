@@ -35,14 +35,17 @@ video {
 
 .hero-btns {
     margin-top: 32px;
+    opacity: .75;
 }
 
 .hero-btns .btn {
     margin: 6px;
+    opacity: .75;
 }
 
 .fa-play-circle {
     margin-left: 4px;
+    opacity: .75;
 }
 
 @media screen and (max-width: 960px) {
