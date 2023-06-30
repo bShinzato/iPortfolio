@@ -1,6 +1,13 @@
-import React from "react";
-import '../../App.css'
+import React from 'react'
 
-export default function adventures () {
-    return <h1 className="adventures"> My adventures! </h1>
+
+const Adventures = () => {
+  return (
+    <>
+    <h1>Hello there these are my adventures.</h1>
+    </>
+
+  )
 }
+
+export default Adventures

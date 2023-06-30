@@ -7,6 +7,10 @@ import adventures from './components/pages/Adventures';
 import family from './components/pages/Family';
 import physicalFitness from './components/pages/PhysicalFitness';
 import hobbies from './components/pages/Hobbies';
+import Projects from './components/pages/Projects';
+import NotFound from './components/pages/NotFound';
+import AboutMe from './components/pages/AboutMe';
+
 
 
 function App() {
@@ -20,6 +24,9 @@ function App() {
        <Route path='/family' exact Component={family}/>
        <Route path='/physicalFitness' exact Component={physicalFitness}/>
        <Route path='/hobbies' exact Component={hobbies}/>
+       <Route path='/aboutme' exact Component={AboutMe}/>
+       <Route path='/projects' exact Component={Projects}/>
+       <Route path='*' exact Component={NotFound}/>
       </Routes>
     </Router>
      
