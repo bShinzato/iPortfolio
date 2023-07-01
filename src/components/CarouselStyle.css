@@ -1,0 +1,12 @@
+.carousel {
+    font-family: sans-serif;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+  }
+
+.react-slideshow-fadezoom-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px 10px 15px 20px;
+}
