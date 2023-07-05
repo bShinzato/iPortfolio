@@ -13,7 +13,7 @@ const HeroSection = () => {
         <p>Dive In and Scroll Down To Get To Know Me</p>
         <div className="hero-btns">
         <ButtonSecond className='btns' buttonStyle='btn--primary' buttonSize='btn--small'>
-                Let's Go! <i class="fa-solid fa-envelope" />
+                Let's Go! <i class="fa-solid fa-universal-access"></i>
         </ButtonSecond>
         <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--small'>
                 Contact Me <i class="fa-solid fa-envelope" />
