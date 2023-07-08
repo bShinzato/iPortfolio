@@ -11,6 +11,9 @@ import image8 from "../../imagesforcarousel/aimg-8.jpg";
 import image9 from "../../imagesforcarousel/aimg-9.jpg";
 import '../CarouselStyle.css'
 import './AdventuresStyle.css'
+import CardItem from '../CardItem.js'
+import '../Cards.css'
+
 
 const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 
@@ -42,6 +45,32 @@ function Adventures() {
     <div className="carousel">
       <Slideshow />
       <p className="fade-in-text">I am a spontaneous person who loves traveling to new destinations and immersing myself in the local culture. I enjoy trying exotic foods, relaxing at an onsen, finding unmarked beaches, and exploring underwater caves. Adventure is always on my agenda, as long as it's safe. </p>
+    </div>
+    <div className="cards"> 
+            <div className="cards__container">
+                <div className="cards__wrapper">
+                    <ul className="cards__items">
+                        <CardItem
+                        src="images/img-2.jpg"
+                        text="I enjoy spending my free time with my family and friends"
+                        label="Family and Friends"
+                        path="/family"
+                        />
+                        <CardItem
+                        src="images/img-3.jpg"
+                        text="I love physical fitness, pushing myself to my limits"
+                        label="Physical Fitness"
+                        path="/physicalfitness"
+                        />
+                        <CardItem
+                        src="images/img-4.jpg"
+                        text="I enjoy the simple things in life. From learning to relaxing"
+                        label="Hobbies"
+                        path="/hobbies"
+                        />
+                    </ul>
+                </div>
+            </div>
     </div>
     </>
   );

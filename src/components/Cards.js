@@ -18,7 +18,7 @@ const Cards = () => {
                         <CardItem
                         src="images/img-2.jpg"
                         text="I enjoy spending my free time with my family and friends"
-                        label="Family"
+                        label="Family and Friends"
                         path="/family"
                         />
                         <CardItem

@@ -1,6 +1,6 @@
 .fade-in-text {
     font-family: Arial;
-    font-size: 25px;
+    font-size: 16px;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
@@ -8,8 +8,28 @@
     -ms-animation: fadeIn 5s;
   }
 
+  p.fade-in-text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h1.fade-in-text {
+  font-size: 20px;
+  padding: 7px;
+}
 
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+.btn--primary {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px 8px 8px 8px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}

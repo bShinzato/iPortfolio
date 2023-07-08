@@ -13,6 +13,7 @@ import AboutMe from './components/pages/AboutMe';
 
 
 
+
 function App() {
   return (
     <>
@@ -29,7 +30,6 @@ function App() {
        <Route path='*' exact Component={NotFound}/>
       </Routes>
     </Router>
-     
     </>
   );
 }

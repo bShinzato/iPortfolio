@@ -10,10 +10,10 @@ const HeroSection = () => {
         <video src="/videos/video-1.mp4" autoPlay loop muted />
         <h1>Brandon Shinzato</h1>
         <p>Junior Full Stack Developer</p>
-        <p>Dive In and Scroll Down To Get To Know Me</p>
+        <p>Dive In or Scroll Down To Get To Know Me</p>
         <div className="hero-btns">
         <ButtonSecond className='btns' buttonStyle='btn--primary' buttonSize='btn--small'>
-                Let's Go! <i class="fa-solid fa-universal-access"></i>
+                Dive In! <i class="fa-solid fa-fish-fins"></i>
         </ButtonSecond>
         <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--small'>
                 Contact Me <i class="fa-solid fa-envelope" />
