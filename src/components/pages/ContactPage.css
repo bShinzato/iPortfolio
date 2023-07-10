@@ -1,0 +1,24 @@
+.entire-content-cm {
+  text-align: center;
+  animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.entire-content-cm h2 {
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  font-size: 45px;
+}
+
+.entire-content-cm h3 {
+  margin-top: 1rem;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+

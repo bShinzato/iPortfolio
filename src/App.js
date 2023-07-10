@@ -10,6 +10,7 @@ import hobbies from './components/pages/Hobbies';
 import Projects from './components/pages/Projects';
 import NotFound from './components/pages/NotFound';
 import AboutMe from './components/pages/AboutMe';
+import ContactMe from './components/pages/ContactMe';
 
 
 
@@ -27,6 +28,7 @@ function App() {
        <Route path='/hobbies' exact Component={hobbies}/>
        <Route path='/aboutme' exact Component={AboutMe}/>
        <Route path='/projects' exact Component={Projects}/>
+       <Route path='/contact-me' exact Component={ContactMe}/>
        <Route path='*' exact Component={NotFound}/>
       </Routes>
     </Router>

@@ -2,7 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 
 .home,
@@ -15,30 +16,3 @@
   justify-content: center;
   font-size: 3rem;
 }
-
-/* .services {
-  background-image: url('/Users/learnacademy/Desktop/my-app/public/images/img-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.products {
-  background-image: url('/Users/learnacademy/Desktop/my-app/public/images/img-2.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-} */
-
-/* .sign-up {
-  background-image: url('/Users/learnacademy/Desktop/my-app/public/images/img-7.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-} */

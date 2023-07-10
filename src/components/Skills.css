@@ -1,0 +1,77 @@
+.SkillsContainer {
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    
+  }
+  
+  .SkillsCards {
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  }
+ h1 {
+    font-size: 30px;
+    padding-bottom: 2px;
+  }
+  .SkillCard {
+    flex: 0 0 30%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .3s;
+    text-align: center;
+    margin-right: 20px; /* Add right margin for spacing */
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  }
+
+  .SkillCard:last-child {
+    margin-right: 0; /* Remove margin from the last SkillCard */
+    animation: FadeIn;
+  }
+
+  .SkillCard ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  }
+  
+  .TechnicalSkills {
+    background: #fff;
+    animation: FadeIn;
+  }
+  
+  .SoftSkills {
+    background: #fff;
+    animation: FadeIn;
+  }
+  
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  
+
