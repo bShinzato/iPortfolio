@@ -12,7 +12,6 @@ const HeroSection = () => {
         <video src="/videos/video-3.mp4" autoPlay loop muted />
         <h1>Brandon Shinzato</h1>
         <p>Junior Full Stack Developer</p>
-  
         <div className="hero-btns">
         <ButtonSecond className='btns' buttonStyle='btn--primary' buttonSize='btn--small'>
                 Dive In! <i class="fa-solid fa-fish-fins"></i>

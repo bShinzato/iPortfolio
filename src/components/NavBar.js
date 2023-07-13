@@ -28,7 +28,7 @@ function Navbar() {
       <nav className="navbar">
           <div className="navbar-container">
               <div className='menu-icon' onClick={handleClick}>
-                  <i className = {click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
+                  <i className = {click ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-bars'} />
               </div>
               <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                   <li className="nav-item">
