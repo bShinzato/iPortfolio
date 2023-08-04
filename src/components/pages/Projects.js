@@ -1,6 +1,5 @@
 import React from 'react'
 import CardItem from '../CardItem'
-// import { Link } from 'react-router-dom'
 
 const Projects = () => {
   return (
@@ -11,17 +10,19 @@ const Projects = () => {
                     
                     <ul className="cards__items">
                         <CardItem
-                        src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg"
-                        text="Paired Programmed on backend and frontend of this application, full CRUD functionality  linking frontend to backend."
-                        label="Cat Tinder"
-                        path="*"
+                        src="images/img-p-1.png"
+                        text="This project was created at LEARN Academy within 2 weeks, by a team of 3, including myself. Ranging from Frontend to Backend, we achieved full CRUD, and adding more features as time permits. "
+                        label="EurekaGrub"
+                        path="https://eureka-grub-frontend.onrender.com/"
+                        target="_blank"
                         />
-                         <CardItem
-                        src="images/img-5.jpg"
-                        text="Paired Programmed on backend and frontend of this application, full CRUD functionailty linking frontend to backend. In addition, adding login and sign up, with protected indexes."
-                        label="Apartment app"
-                        path="*"
-                        /> 
+                        <CardItem
+                        src="https://user-images.githubusercontent.com/47307889/116921331-826bbe80-ac5c-11eb-9f48-d8fbde144b04.png"
+                        text="This is my tech talk presentation slides at LEARN Academy. I talked about useState and useEffect. "
+                        label="Tech Talk Slides"
+                        path="https://www.canva.com/design/DAFqPZ9qnh4/RykK1fNfOlhU0r4aSnyJNQ/view?utm_content=DAFqPZ9qnh4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                        target="_blank"
+                        />
                     </ul>
                 </div>
             </div>
