@@ -1,13 +1,13 @@
-import React from 'react'
-import '../App.css'
-import './Skills.css'
-import '../App.css';
+import React from "react";
+import "../App.css";
+import "./Skills.css";
+import "../App.css";
 
 const Skills = () => {
   return (
-    <div className='SkillsContainer'>
-      <div className='SkillsCards'>
-        <div className='SkillCard TechnicalSkills'>
+    <div className="SkillsContainer">
+      <div className="SkillsCards">
+        <div className="SkillCard TechnicalSkills">
           <h3>Technical Skills</h3>
           <ul>
             <li>JavaScript</li>
@@ -19,9 +19,11 @@ const Skills = () => {
             <li>Postman</li>
             <li>React</li>
             <li>Ruby on Rails</li>
+            <li>Cypress</li>
+            <li>Tailwind</li>
           </ul>
         </div>
-        <div className='SkillCard SoftSkills'>
+        <div className="SkillCard SoftSkills">
           <h3>Soft Skills</h3>
           <ul>
             <li>Time Management</li>
