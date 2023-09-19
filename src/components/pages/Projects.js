@@ -24,7 +24,7 @@ const Projects = () => {
             />
             <CardItem
               src="https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              text="This application is built for a friend building her clients and showing her skills within cosmetics. Frontend development that includes phone viewports. "
+              text="This application is built for a friend building her clients and showing her skills within cosmetics. Frontend development that is only for iphone view as of now. "
               label="Salon App"
               path="https://deesbeauties.vercel.app/"
               target="_blank"
