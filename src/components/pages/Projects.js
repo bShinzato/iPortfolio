@@ -9,8 +9,8 @@ const Projects = () => {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-p-1.png"
-              text="This project was created at LEARN Academy within 2 weeks, by a team of 3, including myself. Ranging from Frontend to Backend, we achieved full CRUD, and adding more features as time permits. "
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=999&q=80"
+              text="First Fullstack Group Project at LEARN Academy."
               label="EurekaGrub"
               path="https://eureka-grub-frontend.onrender.com/"
               target="_blank"
