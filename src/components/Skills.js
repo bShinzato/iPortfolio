@@ -11,6 +11,8 @@ const Skills = () => {
           <h3>Languages and Frameworks</h3>
           <ul>
             <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Python</li>
             <li>Java</li>
             <li>Assembly</li>
             <li>C#</li>
