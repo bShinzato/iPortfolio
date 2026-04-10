@@ -10,7 +10,7 @@ const AboutMe = () => {
 <>
 <div className='aboutme-hp'>
     <h1>About Me</h1>
-    <p>Allow me to introduce myself as Brandon! Prior to delving into the world of coding, I proudly served in the Air Force. Subsequently, I pursued my education in Civil Engineering. The allure of coding captivated me due to its intricate nature and logical language. Moreover, I eagerly embraced the prospect of embarking on a new career path. Taking a leap of faith, I joined LEARN academy to bolster my journey towards becoming a Full Stack Developer. My passion for coding stems from its striking resemblances to my prior experiences, encompassing critical thinking, problem-solving, and collaborative endeavors with peers. On a personal note, I have a deep affection for exploring the world, immersing myself in new experiences, indulging in hobbies, and above all, constantly expanding my knowledge and skills.
+    <p>I am a developer who enjoys building modern web applications with React, Tailwind CSS, and a focus on clean user experience. I am passionate about technology, but I also care a lot about the business side of projects, like strategy, operations, and solving real problems that matter. I like creating things that are practical, scalable, and useful, while continuing to grow my skills as both a developer and problem solver. My goal is to combine technical ability with my business degree to deliver a strong mindset for innovation, adaptability, and long term value.
     </p>
     </div>
   <div className="cards">
@@ -19,25 +19,25 @@ const AboutMe = () => {
                 <ul className="cards__items">
                     <CardItem
                     src="images/img-1.jpg"
-                    text="I am a spontaneous adventurer that loves the outdoors ranging from camping, fishing, and traveling"
+                    text="Traveling"
                     label="Adventures"
                     // path="/adventures"
                     />
                     <CardItem
                     src="images/img-2.jpg"
-                    text="I enjoy spending my free time with my family and friends"
+                    text="Family & Friends"
                     label="Family"
                     // path="/family"
                     />
                     <CardItem
                     src="images/img-3.jpg"
-                    text="I love physical fitness, pushing myself to my limits"
+                    text="Stay Healthy"
                     label="Physical Fitness"
                     // path="/physicalfitness"
                     />
                     <CardItem
                     src="images/img-4.jpg"
-                    text="I enjoy the simple things in life. From learning to relaxing"
+                    text="Coding & Games & Cars"
                     label="Hobbies"
                     // path="/hobbies"
                     />
