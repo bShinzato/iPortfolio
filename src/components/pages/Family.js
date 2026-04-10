@@ -34,7 +34,7 @@ const Slideshow = () => {
             key={index}
             style={{ width: "100%" }}
             src={each}
-            alt={`Family slideshow image ${index + 1}`}
+            alt={`Family slideshow ${index + 1}`}
           />
         ))}
       </Zoom>
