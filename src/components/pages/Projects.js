@@ -12,8 +12,8 @@ const Projects = () => {
             <CardItem
               src="https://static.vecteezy.com/system/resources/previews/070/513/421/non_2x/cute-pixel-monster-waving-hello-free-vector.jpg"
               text="Rogue-lite game that involves minimal clicking. Can buy potions or a sword to slay monsters. "
-              label="Salon App"
-              path="mini-turn-based.vercel.app"
+              label="MiniGame"
+              path="https://mini-turn-based.vercel.app"
               target="_blank"
             />
           </ul>
