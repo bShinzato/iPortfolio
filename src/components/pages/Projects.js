@@ -9,19 +9,24 @@ const Projects = () => {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              text="Rogue-lite game that involves minimal clicking. Can buy potions or a sword to slay monsters."
+              src="https://static.vecteezy.com/system/resources/previews/070/513/421/non_2x/cute-pixel-monster-waving-hello-free-vector.jpg"
+              text="Rogue-lite game that involves minimal clicking. Can buy potions or a sword to slay monsters. "
               label="MiniGame"
               path="https://mini-turn-based.vercel.app"
+              target="_blank"
             />
           </ul>
 
           <ul className="cards__items">
             <CardItem
-              text="Basic Movement Game with Basic Canvas Drawing"
+              src="https://static.vecteezy.com/system/resources/previews/070/513/421/non_2x/cute-pixel-monster-waving-hello-free-vector.jpg"
+              text="Basic Movement Game with Basic Canvas Drawing "
               label="MiniGame"
               path="https://basic-movement-game.vercel.app"
+              target="_blank"
             />
           </ul>
+
         </div>
       </div>
     </div>
