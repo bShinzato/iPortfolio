@@ -1,19 +1,25 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const CardItem = (props) => {
   return (
-    <>
     <li className="cards__item">
-        <Link className="cards__item__link" to={props.path}>
-            <figure className="cards__item__pic-wrap" data-category={props.label}>
-                <img src={props.src} alt="About Me" className="cards__item__img" />
-            </figure>
-            <div className="cards__item__info"></div>
-            <h5 className="cards__item__text">{props.text}</h5>
-        </Link>
+      <a
+        className="cards__item__link"
+        href={props.path}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <figure className="cards__item__pic-wrap" data-category={props.label}>
+          <iframe
+            src={props.path}
+            title={props.label}
+            className="cards__item__iframe"
+          />
+        </figure>
+        <div className="cards__item__info"></div>
+        <h5 className="cards__item__text">{props.text}</h5>
+      </a>
     </li>
-    </>
   )
 }
 
